@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    background: url(tempconvertbg.jpg);
+    background-size: cover;
+    color: rgb(33, 172, 228);
+    background-repeat: no-repeat;
+  }
+  
+  .heading {
+   color: black;
+   padding-left: 300px;
+  }
+  
+  .main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:80vmax;
+    gap: 5%;
+  }
+  .form {
+    background-color: beige;
+    margin-top: 5vh;
+    padding: 4%;
+    width: 40%;
+    border: 3px solid black;
+  }
+  h2 {
+    color: rgb(26, 0, 4);
+    font-weight: bold;
+    font-style: bold;
+  }
+  
+  .button {
+    text-align: center;
+    margin-top: 10%;
+  }
+  
+  #button {
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    font-weight: bold;
+    font-style: bold;
+    padding: 10px;
+    width: 40%;
+  }
+  #button:active {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+  }
+  #input {
+    border: 2px solid;
+    padding: 10px;
+  }
+  #output {
+    border: 2px solid;
+    padding: 10px;
+    width: 90%;
+  }
+  .form select {
+    border: 2px solid black;
+    padding: 7px;
+    margin-left: 3%;
+    font-style: bold;
+  }
